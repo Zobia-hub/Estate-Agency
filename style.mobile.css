@@ -1,0 +1,67 @@
+/* Class */
+.title {
+  text-align: center;
+}
+
+/* Header Block */
+header {
+  flex-direction: column;
+}
+header ul {
+  flex-direction: column;
+  text-align: center;
+}
+header ul li {
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  border-bottom: 1px dotted#ddd;
+}
+
+/* Hero Block */
+vp-content h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.vp-content p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* Offer Block */
+.offer {
+  padding: 5rem 1rem;
+  text-align: center;
+}
+.offer-list {
+  flex-direction: column;
+}
+
+/* Who Block */
+.who {
+  flex-direction: column-reverse;
+}
+.who-content-img {
+  min-height: 300px;
+}
+.who-content-text {
+  padding: 4rem 2rem;
+}
+
+/* Testimonials Block */
+.testimonials-elem {
+  flex-direction: column;
+}
+.testimonials-elem-reverse {
+  flex-direction: column-reverse;
+}
+.testimonials-elem-profil img {
+  margin: 1.2rem auto;
+}
+
+/* Contact Block */
+.contact {
+  padding: 5rem 1rem;
+}
+.contact-form button {
+  margin: 2rem auto 0 auto;
+}
